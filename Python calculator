@@ -1,0 +1,21 @@
+# calculator
+a=int(input("a value is : "))
+b=int(input("b value is : "))
+def sum(a,b):   
+   print( a + b)
+def sub(a, b):
+   print(a - b)
+def mul(a,b): 
+  print( a * b)
+def div(a, b): 
+  print(a / b)
+operat=input("enter operater : ")
+if operat == '+':   
+    sum(a,b) 
+elif    operat =='-':
+    sub(a,b)
+elif operat =='*':    
+    mul(a,b) 
+elif operat=='/':  
+    div(a,b)else:   
+print("invalid ")
